@@ -33,9 +33,7 @@ function bouncingBall(h, bounce, window) {
     if (maxHeight < window) {
         numBounce++;
     }
-    // if(h < 0 || bounce > 0 || bounce < 1 || window > h){
-    //     return false;
-    // }
+
     return numBounce;
 }
 
